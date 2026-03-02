@@ -3,10 +3,10 @@
 
 const CONFIG = {
     // Partner's name (will be used throughout the website)
-    partnerName: "Sarah",
+    partnerName: "Venic",
     
     // Your name (optional, for signature)
-    yourName: "Alex",
+    yourName: "Levis",
     
     // Custom messages
     messages: {

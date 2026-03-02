@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Love Website Generator 💕</title>
+    <title>My Jaber 💕</title>
     <link rel="stylesheet" href="styles.css">
     <script src="config.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +15,9 @@
     <div class="music-control">
         <button id="musicToggle" class="music-btn">🎵</button>
         <audio id="bgMusic" loop>
+            <!-- Primary custom audio in project root -->
+            <source src="Jaber.aac" type="audio/aac">
+            <!-- Fallback tracks in case the AAC file or format isn't supported -->
             <source src="https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0c6ff1bab.mp3" type="audio/mp3">
             <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73c3a.mp3" type="audio/mp3">
         </audio>
@@ -27,8 +30,8 @@
     <div class="container">
         <!-- Header -->
         <header class="header">
-            <h1 class="main-title">For My Love</h1>
-            <p class="subtitle" id="subtitle">Add your partner's name in config.js ✨</p>
+            <h1 class="main-title">For My Beautiful Babie</h1>
+            <p class="subtitle" id="subtitle">Add partner's name in config.js ✨</p>
         </header>
 
         <!-- Character Section -->
@@ -44,7 +47,7 @@
                             <path d="M45 40 Q50 45 55 40" stroke="#FF1493" stroke-width="2" fill="none"/>
                         </svg>
                     </div>
-                    <h3 id="partnerName">Your Love 💕</h3>
+                    <h3 id="partnerName">My Jaber 💕</h3>
                     <p id="partnerDescription">My beautiful angel</p>
                 </div>
                 
@@ -80,23 +83,24 @@
 
         <!-- Memory Gallery -->
         <section class="memory-gallery">
-            <h2>Our Beautiful Memories Together 💫</h2>
+            <h2>Beautiful Memories</h2>
             <div class="memories-grid">
-                <div class="memory-card" data-memory="late-night">
-                    <div class="memory-icon">🌙</div>
-                    <h3>Late Night Talks</h3>
-                    <p id="memoryLateNight">Those endless conversations that made us forget about time</p>
-                </div>
-                <div class="memory-card" data-memory="first-meeting">
-                    <div class="memory-icon">💫</div>
-                    <h3>The Day We'll Meet</h3>
-                    <p id="memoryFirstMeeting">I know the day we meet will be magical and unforgettable</p>
-                </div>
                 <div class="memory-card" data-memory="care">
                     <div class="memory-icon">💕</div>
                     <h3>Your Care & Voice</h3>
                     <p id="memoryCare">Your caring nature, sweet voice, and adorable cuteness</p>
                 </div>
+                <div class="memory-card" data-memory="late-night">
+                    <div class="memory-icon">🌙</div>
+                    <h3>Late Night Talks</h3>
+                    <p id="memoryLateNight">Those endless conversations that made us forget about time...</p>
+                </div>
+                <div class="memory-card" data-memory="first-meeting">
+                    <div class="memory-icon">💫</div>
+                    <h3>The Moments We've Had</h3>
+                    <p id="memoryFirstMeeting">They are always unforgotable and I always carry them with me all through. They are my treasures and my heart's joy. Can they even fit in this webpage? Naah!</p>
+                </div>
+                
             </div>
         </section>
 
@@ -125,7 +129,7 @@
                 <h2 id="specialMessageTitle">To My Dearest Love</h2>
                 <p id="specialMessage1">You came into my life like a beautiful surprise, and now I can't imagine my world without you. Your smile brightens my darkest days, your laugh is my favorite melody, and your love is the greatest gift I've ever received.</p>
                 <p id="specialMessage2">Thank you for being you, for loving me, and for making every day feel like a celebration. I promise to love you, cherish you, and make you smile every single day of our lives together.</p>
-                <div class="signature" id="signature">With all my love, Forever yours 💕</div>
+                <div class="signature" id="signature">With all my love, Always yours 💕</div>
             </div>
         </section>
     </div>

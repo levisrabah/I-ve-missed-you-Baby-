@@ -85,7 +85,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const heartsContainer = document.querySelector('.hearts-container');
         const heartSymbols = ['💕', '💖', '💗', '💘', '💝', '💞', '💟', '💌', '💋', '❤️'];
         
-        for (let i = 0; i < 15; i++) {
+        // Reduced number of background hearts so they don't cover the content
+        for (let i = 0; i < 6; i++) {
             const heart = document.createElement('div');
             heart.className = 'heart';
             heart.textContent = heartSymbols[Math.floor(Math.random() * heartSymbols.length)];
@@ -137,7 +138,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const heartsContainer = document.querySelector('.hearts-container');
         const burstHearts = ['💕', '💖', '💗', '💘', '💝', '💞'];
         
-        for (let i = 0; i < 10; i++) {
+        // Slightly fewer hearts in each burst
+        for (let i = 0; i < 6; i++) {
             const heart = document.createElement('div');
             heart.className = 'heart';
             heart.textContent = burstHearts[Math.floor(Math.random() * burstHearts.length)];
@@ -181,7 +183,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const kissEffects = document.querySelector('.kiss-effects');
         const kissSymbols = ['💋', '💕', '💖', '💗', '😘'];
         
-        for (let i = 0; i < 5; i++) {
+        // Fewer kiss effects so the screen is less cluttered
+        for (let i = 0; i < 3; i++) {
             const kiss = document.createElement('div');
             kiss.textContent = kissSymbols[Math.floor(Math.random() * kissSymbols.length)];
             kiss.style.position = 'absolute';
@@ -262,7 +265,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function createStars() {
         const heartsContainer = document.querySelector('.hearts-container');
         
-        for (let i = 0; i < 20; i++) {
+        // Fewer stars so the background stays readable
+        for (let i = 0; i < 10; i++) {
             const star = document.createElement('div');
             star.textContent = '✨';
             star.style.position = 'absolute';
@@ -285,7 +289,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const heartsContainer = document.querySelector('.hearts-container');
         const sparkles = ['✨', '⭐', '💫', '🌟'];
         
-        for (let i = 0; i < 15; i++) {
+        // Fewer sparkles so the background stays readable
+        for (let i = 0; i < 8; i++) {
             const sparkle = document.createElement('div');
             sparkle.textContent = sparkles[Math.floor(Math.random() * sparkles.length)];
             sparkle.style.position = 'absolute';
@@ -307,7 +312,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const heartsContainer = document.querySelector('.hearts-container');
         const hearts = ['💕', '💖', '💗', '💘', '💝', '💞'];
         
-        for (let i = 0; i < 25; i++) {
+        // Fewer heart rain elements so they don't block content
+        for (let i = 0; i < 12; i++) {
             setTimeout(() => {
                 const heart = document.createElement('div');
                 heart.textContent = hearts[Math.floor(Math.random() * hearts.length)];

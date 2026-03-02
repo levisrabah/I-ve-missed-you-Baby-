@@ -52,9 +52,10 @@ body {
 .heart {
     position: absolute;
     color: var(--primary-pink);
-    font-size: 20px;
+    /* Slightly smaller and lighter so they don't hide content */
+    font-size: 16px;
     animation: float 6s infinite ease-in-out;
-    opacity: 0.7;
+    opacity: 0.4;
 }
 
 @keyframes float {
@@ -126,7 +127,7 @@ body {
 .subtitle {
     font-family: var(--font-elegant);
     font-size: clamp(1.4rem, 4vw, 2rem);
-    color: var(--deep-pink);
+    color: var(--white);
     font-weight: 400;
     font-style: italic;
     letter-spacing: 1px;
@@ -493,7 +494,7 @@ body {
 .message-container p {
     font-family: var(--font-elegant);
     font-size: clamp(1.2rem, 4vw, 1.6rem);
-    color: var(--deep-pink);
+    color: var(--white);
     line-height: 1.8;
     margin-bottom: 1.5rem;
     font-weight: 500;
